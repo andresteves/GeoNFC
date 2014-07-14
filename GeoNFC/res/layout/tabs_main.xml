@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.app.FragmentTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            style="?android:attr/tabWidgetStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <FrameLayout
+            android:id="@+id/realtabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/inicio_fin_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center" 
+            android:background="#008fdd">
+
+            <Button
+                android:id="@+id/inicio"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Inicio" />
+
+            <Button
+                android:id="@+id/fin"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Fin" />
+
+            <Button
+                android:id="@+id/cancelar"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="Cancelar" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v4.app.FragmentTabHost>

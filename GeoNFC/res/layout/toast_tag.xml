@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tag_leida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#779438"
+        android:gravity="center"
+        android:text="NFC Tag leida!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp" />
+
+</LinearLayout>

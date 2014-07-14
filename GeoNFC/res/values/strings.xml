@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GeoNFC</string>
+    <string name="action_settings">Settings</string>
+    <string name="leer_nfc">Acerque el teléfono para leer el TAG</string>
+    <string name="activar_gps">Activar GPS</string>
+    <string name="incidencias">Incidencias</string>
+    <string name="inicio">Inicio</string>
+    <string name="fin">Fin</string>
+    <string name="inicio_fin">Opcion Inicio/Fin</string>
+    <string name="settings">Configuración</string>
+    <string name="cargar_files">TEXTOS DEL SOFTWARE Y DEFINICION DE EVENTOS</string>
+     <string name="gps_loc"></string>
+</resources>
